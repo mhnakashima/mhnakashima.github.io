@@ -1,0 +1,14 @@
+#node
+./node_modules/
+
+#assets
+/assets/*.zip
+/assets/*.sketch
+
+#extensions
+*.map
+gitignore.txt
+
+#portfolio
+./portfolio/node_modules
+/node_modules/

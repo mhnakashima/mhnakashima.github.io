@@ -1,0 +1,107 @@
+{
+    "title": {
+        "name": "Olá, sou Michael Nakashima",
+        "resume": "Desenvolvedor Front-End, 31, anos, Maranhese no sangue e Mineiro de coração, comecei minha carreira desenvolvendo aplicações no já distante Delphi 6 e naquela época já sabia que não era minha vibe. Desenvolvendo aplicacões utilizando Flash / ActionScript para uma empresa pioneira no ramo de Ensino a Distância, foi a porta de entrada para a área de Front End, onde atuei à partir de 2012 convertendo cursos em Flash para HTML / CSS / Javascript, desde então em uma eterna lua de mel com essas tecnologias. Hoje, sou responsável por duas Squads como Scrum Master mas o coração sempre será da área de Interface.",
+        "image": "./assets/img/michael.jpg"
+    },
+
+    "portfolio": [
+        { "client" : "Avon", "file:": "./assets/img/avon.png" },
+        { "client" : "Completta", "file:": "./assets/img/complleta.png" },
+        { "client" : "Monterre", "file:": "./assets/img/monterre.png" },
+        { "client" : "Moove", "file:": "./assets/img/moove.png" },
+        { "client" : "MRV", "file:": "./assets/img/mrv.png" },
+        { "client" : "MV Estruturas", "file:": "./assets/img/mvestruturas.png" },
+        { "client" : "Quiropraxia", "file:": "./assets/img/quiropraxia.png" },
+        { "client" : "Vale Arquitetura", "file:": "./assets/img/valearquitetura.png" },
+        { "client" : "VLI", "file:": "./assets/img/vli.png" }
+    ],
+
+    "about": {
+        "descrition": "Jogador de RPG japonês e descendente de japoneses, comecei a carreira de Front End developer criando aplicações para o ramo de Ensino a Distância, isso foi um marco pois obtive a expertise para trabalhar com tecnologias que são frente de mercado. Hoje, sou atleta de uma equipe de corrida e nas horas vagas gosto de cozinhar, ler Azimov, Tolkien, Martin, além de ser piolho de academia e podcasts. E não podemos esquecer do café <fa-icon [icon]='['fas','coffee']'></fa-icon> (a força motriz de todo programador)."
+    },
+
+    "skills": {
+        "structure": {
+
+            "name": "Structure",
+            "skills": [
+                { "name": "HTML", "level": 8 },
+                { "name": "XML", "level": 9 },
+                { "name": "JSON", "level": 9 }
+                
+            ]
+        },
+
+        "visual": {
+
+            "name": "Visual",
+            "skills": [
+                { "name": "CSS", "level": 8 },
+                { "name": "LESS", "level": 7 },
+                { "name": "Sass", "level": 7 }
+            ]
+        },
+
+        "development": {
+            "name": "Development",  
+            "skills": [
+                { "name": "PHP", "level": 6 },
+                { "name": "Javascript", "level": 7 },
+                { "name": "Angular", "level": 7 },
+                { "name": "AngularJS", "level": 7 },
+                { "name": "Vue", "level": 5 },
+                { "name": "Actionscript", "level": 8 }
+            ]
+        },
+
+        "softwares": {
+            "name": "Tools and Tecnologies",  
+            "skills": [
+                { "name": "WordPress", "level": 8 },
+                { "name": "CMS", "level": 7 },
+                { "name": "Illustrator", "level": 7 },
+                { "name": "Photoshop", "level": 7 },
+                { "name": "Grunt", "level": 7 },
+                { "name": "Bootstrap", "level": 8 },
+                { "name": "MySQL", "level": 6 },
+                { "name": "AJAX", "level": 7 },
+                { "name": "SCORM", "level": 8 },
+                { "name": "Scrum", "level": 7 }
+            ]
+        }
+    },
+
+    "carrer": [
+        {
+            "company": "TOTVS S/A",
+            "title": "Front End Developer",
+            "beginDate": "10/10/2016",
+            "endDate": "current",
+            "description": "What do you do?<br><br>Responsável por recortar e criar páginas, sites, ajudando o BackEnd com funcionalidade e interatividade que o sistema necessita."
+        },
+        {
+            "company": "TOTVS S/A",
+            "title": "Scrum Master",
+            "beginDate": "01/07/2018",
+            "endDate": "20/06/2019",
+            "description": "What do you do?<br><br>Responsável por 2 squads ajudando o time a ajustar as entregas e garantir qualidade"
+        },
+
+        {
+            "company": "Webaula",
+            "title": "Front End Developer",
+            "beginDate": "05/11/2014",
+            "endDate": "05/10/2016",
+            "description": "What do you do?<br><br>Usando tecnologias como HTML / CSS / Javascript / JQuery para criar interações e layouts provendo a melhor experiência para os usuários"
+        },
+
+        {
+            "company": "Webaula",
+            "title": "Actionscript Developer - Senior IV",
+            "beginDate": "05/11/2009",
+            "endDate": "05/10/2016",
+            "description": "What do you do?<br><br>Empresa pioneira no ramo de Ensino a Distância (EAD) com um catálogo vasto de clientes, fui programador responsável por criar soluções interativas utilizando o Flash (Actionscript) e posteriormente HTML5 (CSS, Javascript). "
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+@mixin fn-line-height($value) {
+    line-height: $value * 1.5;
+}

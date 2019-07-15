@@ -1,0 +1,106 @@
+@media (min-width: 30em) and (max-width: 96em){
+    .main{
+        grid-area: main;
+    }
+    .a{
+        grid-area: a;
+    }
+
+    .b{
+        grid-area: b;
+    }
+
+    .c{
+        grid-area: c;
+    }
+
+    .d{
+        grid-area: d;
+    }
+
+    .e{
+        grid-area: e;
+    }
+
+    .f{
+        grid-area: f;
+    }
+
+    .g{
+        grid-area: g;
+    }
+
+    .h{
+        grid-area: h;
+    }
+
+    .i{
+        grid-area: i;
+    }
+}
+
+
+.portfolio{
+    
+    @media (max-width: 30em){
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-flow: row;
+    }
+
+    @media (min-width: 30em) and (max-width: 96em){
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        grid-template-areas: 
+
+        "main a b"
+        "c d e"
+        "f g h";
+    }
+
+    justify-items: center;
+    align-items: center;
+
+    &__image{
+
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+
+        max-width: 100%;
+        width: 100%;
+
+        text-align: center;
+
+        >img{
+            -webkit-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+        }
+
+        &:hover{
+            
+            >img{
+               transform: scale(0.8);
+            }
+        }
+
+        &.black{
+            background-color: #0a0a0a;
+        }
+
+        &.greenSoft{
+           // background-color: 
+        }
+
+        &.yellowSoft{
+            background-color: #FFD33B;
+        }
+
+        &.orangeSoft{
+            background-color: #FF8B00;
+        }
+
+        
+    }
+}

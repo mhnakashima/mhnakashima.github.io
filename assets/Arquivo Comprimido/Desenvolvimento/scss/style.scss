@@ -1,0 +1,20 @@
+@import '_variables';
+@import '_utils';
+
+/*
+    =Site
+*/  
+
+.container{
+    @media #{$mq-medium}{
+        max-width: 970px;
+
+        margin: 0 auto;
+    }
+
+    @media #{$mq-large}{
+        max-width: 1170px;
+
+        margin: 0 auto;
+    }
+}
