@@ -1,37 +1,37 @@
 @media (min-width: 30em) and (max-width: 96em){
-    .main{
-        grid-area: main;
+    .p_0{
+        grid-area: p_0;
     }
-    .a{
-        grid-area: a;
-    }
-
-    .b{
-        grid-area: b;
+    .p_1{
+        grid-area: p_1;
     }
 
-    .c{
-        grid-area: c;
+    .p_2{
+        grid-area: p_2;
     }
 
-    .d{
-        grid-area: d;
+    .p_3{
+        grid-area: p_3;
     }
 
-    .e{
-        grid-area: e;
+    .p_4{
+        grid-area: p_4;
     }
 
-    .f{
-        grid-area: f;
+    .p_5{
+        grid-area: p_5;
     }
 
-    .g{
-        grid-area: g;
+    .p_6{
+        grid-area: p_6;
     }
 
-    .h{
-        grid-area: h;
+    .p_7{
+        grid-area: p_7;
+    }
+
+    .p_8{
+        grid-area: p_8;
     }
 
     .i{
@@ -55,9 +55,9 @@
 
         grid-template-areas: 
 
-        "main a b"
-        "c d e"
-        "f g h";
+        "p_0 p_1 p_2"
+        "p_3 p_4 p_5"
+        "p_6 p_7 p_8";
     }
 
     justify-items: center;
@@ -71,6 +71,9 @@
         max-width: 100%;
         width: 100%;
 
+        position: relative;
+        overflow: hidden;
+
         text-align: center;
 
         >img{
@@ -81,12 +84,20 @@
         &:hover{
             
             >img{
-               transform: scale(0.8);
+               transform: scale(0.5);
+            }
+
+            >.portfolio__content{
+                bottom: 0px;
             }
         }
 
         &.black{
             background-color: #0a0a0a;
+            
+            .portfolio__description, .portfolio__link{
+                color: #fff;
+            }
         }
 
         &.greenSoft{
@@ -100,7 +111,35 @@
         &.orangeSoft{
             background-color: #FF8B00;
         }
+    }
 
+    &__content{
+
+        -moz-transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+
+        bottom: -100px;
+        left: 0px;
+        position: absolute;
+        width: 100%;
         
+        padding: 15px;
+
+        text-align: left;
+        
+    }
+
+    &__description{
+        color: #0a0a0a;
+        font-family: 'lato', sans-serif;
+        font-size: 1rem;
+    }
+
+    &__link{
+        color: #0a0a0a;
+        font-family: 'lato', sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
     }
 }

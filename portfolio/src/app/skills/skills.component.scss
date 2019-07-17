@@ -1,0 +1,30 @@
+.skill{
+    &-badge{
+
+        margin-bottom: 5px;
+        padding: 5px;
+
+        background-color: rgb(236, 236, 236);
+        border-radius: 5px;
+        border: 1px solid #979797; 
+        font-weight: 700;
+    }
+
+    &-level{
+
+        padding: 5px 8px;
+
+        background-color: #FF0000;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 0.6rem;
+    }
+
+    &-row{
+        margin-bottom: 15px;
+    }
+}
+
+.badges{
+    margin-bottom: 10px;
+}

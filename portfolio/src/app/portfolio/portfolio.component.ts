@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { GenericsService } from '../generics/generics.service';
 
 @Component({
   selector: 'app-portfolio',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
 
-  constructor() { }
+  portfolio$: Observable<any>
+
+  constructor(private genericService:GenericsService) { }
 
   ngOnInit() {
+    this.portfolio$ = this.genericService.getPortfolio();
   }
 
 }

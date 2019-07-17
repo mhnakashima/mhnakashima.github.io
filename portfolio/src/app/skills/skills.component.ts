@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { GenericsService } from '../generics/generics.service';
 
 @Component({
   selector: 'app-skills',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
-  constructor() { }
+  skills$: Observable<any>;
+
+  constructor(private genericService: GenericsService) { }
 
   ngOnInit() {
+    this.skills$ = this.genericService.getSkills();
+
+    console.log(this.skills$);
   }
 
 }

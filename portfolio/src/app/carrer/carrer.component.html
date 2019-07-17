@@ -11,20 +11,20 @@
             
             <div class="carrer" *ngFor="let work of carrer$ | async">
                 
-                <h3 class="">{{work.company}}</h3>
-                <span>{{work.title}}</span>
-                
-                <h4>O que fazia?</h4>
-                <div class="text-paragraph" [innerHTML] = 'work.description'>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                    It has survived not only five centuries, but also the leap into electronic typesetting, 
-                    remaining essentially unchanged. It was popularised in the 1960s with the release of 
-                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
-                    software like Aldus  PageMaker including versions of Lorem Ipsum.
-                </div>
+                <h3 class="carrer-title">{{work.company}}</h3>
+                <span class="carrer-subtitle">{{work.title}}</span>
+                <div class="carrer-date">
 
+                    <span class="carrer-dateItem" >
+                        {{work.beginDate}} 
+                    </span>  
+                    <span class="carrer-dateItem" *ngIf="work.endDate != 'current'">
+                        a {{work.endDate}}
+                    </span> 
+                </div>
+                
+                <h4 class="carrer-description">O que fazia?</h4>
+                <div class="text-paragraph" [innerHTML] = 'work.description'></div>
                 
             </div>
             

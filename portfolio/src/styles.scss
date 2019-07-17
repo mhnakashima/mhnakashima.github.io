@@ -21,6 +21,16 @@ body{
     margin: 25px 0;
 }
 
+.item{
+    @media (max-width: 30em){
+        margin-bottom: 35px;
+    }
+
+    @media (min-width: 30em) and (max-width: 96em){
+        margin-bottom: 80px;
+    }
+}
+
 .side{
     
     @media (min-width: 30em) and (max-width: 96em){
@@ -34,7 +44,7 @@ body{
         margin: 0px 0 25px;
 
         font-family: 'Oswald';
-        font-size: 3rem;
+        font-size: 2.4rem;
     }
 
     &-subtitle{
@@ -42,13 +52,39 @@ body{
         font-size: 2rem;
     }
 
+    &-sectionTitle{
+        font-family: 'Lato';
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
     &-paragraph{
         font-family: 'Lato', sans-serif;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 300;
     }
 
     &-right{
         text-align: right;
+    }
+}
+
+#contact{
+    .container{
+        margin-bottom: 40px;
+    }
+}
+
+#footer{
+    .container{
+        margin-top: 80px;
+    }
+}
+
+//Utils
+
+.float{
+    &-right{
+        float: right;
     }
 }
