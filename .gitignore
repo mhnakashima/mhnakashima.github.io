@@ -11,4 +11,5 @@ gitignore.txt
 
 #portfolio
 ./portfolio/node_modules
+./portfolio/dist/
 /node_modules/
