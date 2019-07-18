@@ -9,7 +9,7 @@ import { Observable, Subscription } from 'rxjs';
 })
 export class HeaderComponent implements OnInit, OnDestroy {
 
-  info = {};
+  info = <any>{};
   info$: Subscription;
 
   constructor(private genericService: GenericsService) { }

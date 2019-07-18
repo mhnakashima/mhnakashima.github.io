@@ -1,9 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
  
 import { library } from '@fortawesome/fontawesome-svg-core';
 
@@ -16,7 +13,7 @@ export class ContactMeComponent implements OnInit {
 
   constructor() { 
     library.add(
-      faTwitter, faInstagram, faFacebook, faLinkedin
+      faTwitter, faInstagram, faFacebook, faLinkedin, faGithub
     )
   }
 

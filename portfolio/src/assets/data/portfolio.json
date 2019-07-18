@@ -10,60 +10,60 @@
             "client" : "Avon", 
             "file": "./assets/img/avon.png",
             "site": "",
-            "description": "Um site em Wordpress usando HTML, CSS, Javascript e PHP para gerenciamento de conteúdo para clientes internos e externos da empresa",
+            "description": "Um site em Wordpress usando HTML, CSS, Javascript e PHP para gerenciamento de conteúdo para clientes internos e externos da empresa.",
             "habilitado": false
         },
         { 
             "client" : "Completta", "file": "./assets/img/complleta.png",
-            "description": "Manuntenção e criação de conteúdo Wordpress para gerenciamento de uma loja de decoração",
+            "description": "Manuntenção e criação de conteúdo Wordpress para gerenciamento de uma loja de decoração.",
             "site": "http://www.complleta.com",
-            "habilitado": false
+            "habilitado": true
         },
 
         { "client" : "Monterre", "file": "./assets/img/monterre.png",
-            "description": "Manuntenção e criação de conteúdo Wordpress para gerenciamento de uma empresa do ramo imobiliário",
+            "description": "Manuntenção e criação de conteúdo Wordpress para gerenciamento de uma empresa do ramo imobiliário.",
             "site": "http://www.monterre.com.br/",
            "habilitado": true
         },
 
         { "client" : "Moove", "file": "./assets/img/moove.png",
-            "description": "Manuntenção e criação de conteúdo Wordpress para gerenciamento do site de desenvolvimento pessoal",
+            "description": "Manuntenção e criação de conteúdo Wordpress para gerenciamento do site de desenvolvimento pessoal.",
             "site": "http://moovedesenvolvimento.com.br/",
             "habilitado": true
         },
 
         { "client" : "MRV", "file": "./assets/img/mrv.png",
-            "description": "Manuntenção e criação de conteúdo EAD (Ensino a Distância) para treinamento interno de funcionários",
+            "description": "Manuntenção e criação de conteúdo EAD (Ensino a Distância) para treinamento interno de funcionários.",
             "site": "http://moovedesenvolvimento.com.br/",
             "habilitado": false
         },
 
         { "client" : "MV Estruturas", "file": "./assets/img/mvestruturas.png",
-            "description": "Manuntenção e criação de conteúdo Wordpress para gerenciamento de site Projetos Estruturais",
+            "description": "Manuntenção e criação de conteúdo Wordpress para gerenciamento de site Projetos Estruturais.",
             "site": "http://mvestruturas.com/",
             "habilitado": true
         },
 
         { "client" : "Quiropraxia", "file": "./assets/img/quiropraxia.png",
-            "description": "Manuntenção e criação de conteúdo Wordpress para gerenciamento de site de tratamento de coluna",
+            "description": "Manuntenção e criação de conteúdo Wordpress para gerenciamento de site de tratamento de coluna.",
             "site": "https://conheca.saudecoluna.com.br",
             "habilitado": true
         },
 
         { "client" : "Vale Arquitetura", "file": "./assets/img/valearquitetura.png",
-            "description": "Manuntenção e criação de conteúdo Wordpress para gerenciamento de site de serviços de Arquitetura e Urbanismo",
+            "description": "Manuntenção e criação de conteúdo Wordpress para gerenciamento de site de serviços de Arquitetura e Urbanismo.",
             "site": "https://valearquitetura.com/",
             "habilitado": true},
 
         { "client" : "VLI", "file": "./assets/img/vli.png",
-            "description": "Manuntenção e criação de conteúdo EAD (Ensino a Distância) para treinamento interno de funcionários",
+            "description": "Manuntenção e criação de conteúdo EAD (Ensino a Distância) para treinamento interno de funcionários.",
             "site": "",
             "habilitado": false
         }
     ],
 
     "about": {
-        "descrition": "Jogador de RPG japonês e descendente de japoneses, comecei a carreira de Front End developer criando aplicações para o ramo de Ensino a Distância, isso foi um marco pois obtive a expertise para trabalhar com tecnologias que são frente de mercado. Hoje, sou atleta de uma equipe de corrida e nas horas vagas gosto de cozinhar, ler Azimov, Tolkien, Martin, além de ser piolho de academia e podcasts. E não podemos esquecer do café <fa-icon [icon]='['fas','coffee']'></fa-icon> (a força motriz de todo programador)."
+        "description": "Jogador de RPG japonês e descendente de japoneses, comecei a carreira de Front End developer criando aplicações para o ramo de Ensino a Distância, isso foi um marco pois obtive a expertise para trabalhar com tecnologias que são frente de mercado.<br><br>Hoje, sou atleta de uma equipe de corrida e nas horas vagas gosto de cozinhar, ler Azimov, Tolkien, Martin, além de ser piolho de academia e podcasts.<br><br>E não podemos esquecer do café <fa-icon [icon]=['fas','mug-hot']></fa-icon> (a força motriz de todo programador)."
     },
 
     "skills": 

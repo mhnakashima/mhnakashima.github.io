@@ -9,6 +9,7 @@ html{
 }
 
 body{
+    background-color: #f9f9f9;
     color: #111;
     font-family: 'Lato', sans-serif;
 }
@@ -87,4 +88,10 @@ body{
     &-right{
         float: right;
     }
+}
+
+.main{
+    padding: 40px;
+    
+    background-color: #fff;
 }

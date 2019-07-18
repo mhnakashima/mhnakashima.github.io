@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee, faMugHot } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
+import { GenericsService } from '../generics/generics.service';
+import { Observable, Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-about',
@@ -9,11 +11,25 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { 
-    library.add(faCoffee);
+  about = <any>{};
+  about$: Subscription;
+
+  constructor(private genericService: GenericsService) { 
+    library.add(faCoffee, faMugHot);
   }
 
-  ngOnInit() {
+ 
+ ngOnInit() {
+   
+    this.about$ = this.genericService.getAbout()
+      .subscribe( dados => {
+        this.about = dados
+        console.log(this.about);
+      })
+  }
+
+  ngOnDestroy(){
+    this.about$.unsubscribe();
   }
 
 }

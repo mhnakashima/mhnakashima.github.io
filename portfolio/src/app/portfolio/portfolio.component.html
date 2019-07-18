@@ -4,11 +4,14 @@
         <img [src]="portfolio.file" alt="image" />
         
         <div class="portfolio__content">
-            <div class="portfolio__description">{{portfolio.description}}</div>
-            <div class="" *ngIf="portfolio.habilitado">
-                <a class="portfolio__link" [href]="portfolio.site" target="_blank">
-                    {{portfolio.site}}
-                </a>
+            <div class="portfolio__description">
+                <h4 class="portfolio__title">{{portfolio.client}}</h4>
+                <div>
+                    {{portfolio.description}}
+                    <a class="portfolio__link" [href]="portfolio.site" target="_blank"  *ngIf="portfolio.habilitado">
+                        {{portfolio.site}}
+                    </a>
+                </div>
             </div>
         </div>
     </div>

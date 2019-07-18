@@ -7,7 +7,7 @@
             </h2>
         </div>
 
-        <div class="col-12 col-sm-8">
+        <div class="main col-12 col-sm-8">
             
             <div class="carrer" *ngFor="let work of carrer$ | async">
                 
@@ -23,7 +23,10 @@
                     </span> 
                 </div>
                 
-                <h4 class="carrer-description">O que fazia?</h4>
+                <h4 class="carrer-description">
+                    <span *ngIf="work.endDate != 'current'">O que fazia?</span>
+                    <span *ngIf="work.endDate == 'current'">O que faço?</span>
+                </h4>
                 <div class="text-paragraph" [innerHTML] = 'work.description'></div>
                 
             </div>
