@@ -1,7 +1,11 @@
 {
+    "general": {
+        "status": 2
+    },
+
     "title": {
         "name": "Olá, sou Michael Nakashima",
-        "resume": "Desenvolvedor Front-End, 31, anos, Maranhese no sangue e Mineiro de coração, comecei minha carreira desenvolvendo aplicações no já distante Delphi 6 e naquela época já sabia que não era minha vibe. Desenvolvendo aplicacões utilizando Flash / ActionScript para uma empresa pioneira no ramo de Ensino a Distância, foi a porta de entrada para a área de Front End, onde atuei à partir de 2012 convertendo cursos em Flash para HTML / CSS / Javascript, desde então em uma eterna lua de mel com essas tecnologias. Hoje, sou responsável por duas Squads como Scrum Master mas o coração sempre será da área de Interface.",
+        "resume": "Desenvolvedor Front-End, 31, anos, Maranhese no sangue e Mineiro de coração, comecei minha carreira desenvolvendo aplicações no já distante Delphi 6 e naquela época já sabia que não era minha vibe. Desenvolvendo aplicacões utilizando Flash / ActionScript para uma empresa pioneira no ramo de Ensino a Distância, foi a porta de entrada para a área de Front End, onde atuei à partir de 2012 convertendo cursos em Flash para HTML / CSS / Javascript, desde então em uma eterna lua de mel com essas tecnologias.<br><br>Hoje, sou responsável por duas Squads como Scrum Master mas o coração sempre será da área de Interface.",
         "image": "./assets/img/michael.jpg"
     },
 

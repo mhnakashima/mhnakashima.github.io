@@ -7,8 +7,8 @@
         <div class="main col-12 col-sm-8 col-md-8">
             <h1 class="text-title">{{info.name}}</h1>
 
-            <div class="text-paragraph">
-               {{info.resume}}
+            <div class="text-paragraph" [innerHTML]="info.resume">
+               
             </div>
         </div>
     </div>

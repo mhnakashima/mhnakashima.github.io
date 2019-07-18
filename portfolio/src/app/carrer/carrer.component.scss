@@ -1,7 +1,7 @@
 .carrer{
     
     padding: 40px 0;
-    border-bottom: 1px solid rgba(17, 17, 17, 0.2);
+    border-bottom: 1px solid rgba(17, 17, 17, 0.1);
 
     &:first-child{
         padding-top: 0px;
@@ -15,8 +15,8 @@
         margin: 0px;
 
         color: #111;
-        font-family: 'Lato', sans-serif;
-        font-size: 1.2rem;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.4rem;
         font-weight: 700;
     }
 
@@ -31,11 +31,12 @@
     }
 
     &-description{
+        
         margin-top: 30px;
-        margin-bottom: 0px;
+        margin-bottom: 10px;
 
-        font-size: 1.3rem;
-        font-style: normal;
-        font-weight: 300;
+        font-family: "Oswald", sans-serif;
+        font-size: 1.1rem;
+        font-weight: 500;
     }
 }
