@@ -51,6 +51,10 @@ body{
     &-subtitle{
         font-family: 'Oswald';
         font-size: 2rem;
+
+        @media (max-width: 30em){
+            margin-bottom: 30px;
+        }
     }
 
     &-sectionTitle{
@@ -91,7 +95,38 @@ body{
 }
 
 .main{
-    padding: 40px;
     
+
     background-color: #fff;
+
+    @media (max-width: 30em){
+        padding: 40px 25px;
+    }
+
+    @media (min-width: 30em){
+        padding: 40px;
+    }
+}
+
+.me{
+
+    display: inline-block;
+
+    height: 80px;
+    width: 80px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+
+    border-radius: 100%;
+
+    @media (max-width: 30em){
+        position: absolute;
+        left: 40px;
+        top: -82px;
+
+        height: 40px;
+        width: 40px;
+    }
 }
